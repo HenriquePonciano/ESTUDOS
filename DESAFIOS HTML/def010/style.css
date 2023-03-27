@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('./fontes/idroid.otf') format('opentype');
+}
+body {
+    background-color: aquamarine;
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+header {
+    background-image: linear-gradient( to top, #008D45, #00B75A, #00EC74, #40EA93 );
+    text-align: center;
+    color: white;
+    padding: 35px 0px 10px 0px; 
+    font-size: max(16px, 1.2vw) ;
+    min-width: 360px;
+}
+
+header > h1 {
+    font-size: max(24px 2vw)
+}
+
+header > nav {
+    text-align: left;
+    margin: auto;
+}
+
+header > nav > a {
+    color: white;
+    padding: 8px;
+    margin: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-decoration: none;  
+}
+
+header > nav > a:hover {
+    background-color: #40EA93;
+    color: #00813e;
+}
+
+header > p {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    font-size: max(16px, 1.2vw) ;
+}
+
+main {
+    background-color: white;
+    padding: 0px;
+    margin: auto;
+    box-shadow:  5px 5px 15px rgba(74, 73, 73, 0.662); 
+    border-radius: 0px 0px 10px 10px;
+    min-width: 360px;
+    max-width: 800px;
+}
+
+#informativo > h1 {
+    font-family: 'idroid' ;
+    font-size: 30px;
+    margin: 0px;
+    padding: 20px;
+    color: #00813e;
+    font-size: max(24px, 1.6vw) ;
+}
+
+#informativo > p {
+text-indent: 20px;
+text-align: justify;
+margin: 10px;
+font-size: max(16px, 1.2vw) ;
+}
+
+#informativo > h2 {
+    font-family: 'idroid';
+    color: #008D45;
+    padding: 5px;
+    background-image: linear-gradient(to right,#41fc9fa8, rgba(255, 255, 255, 0.303));
+    font-size: max(20px, 1.4vw) ;
+}
+
+#imgdroid > img {
+display: block;
+margin: auto;
+max-width: 350px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    background-color: #00813e;
+    padding: 22px;
+    width: 87%;
+}
+
+.padrao {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.extra-titulo {
+    color: white;
+    background-color: #10b05e;
+    margin: 8px 0px 0px 0px;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.extra {
+    background-color: aquamarine;
+    padding: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.extra > p {
+    text-align: justify;
+    margin: 15px;
+    padding: 5px 0px 5px 0px;
+}
+
+.lista01 {
+    display: inline-flex;
+    width: 355px;
+    margin: 0px;
+    color: black;
+}
+
+.lista02 {
+    display: inline-flex;
+    width: 355px;
+    margin: 0px;
+    color: black;
+}
+
+.bottomp {
+    padding: 0px 0px 30px 0px;
+}
+
+footer {
+    color: white;
+    background-color: #00813e;
+    margin: auto;
+    text-align: center;
+    font-size: 19px;
+    padding: 8px 0px 8px 0px;
+    min-width: 360px;
+}
+
+footer > p {
+    margin: auto;
+}
+
+.lista01 > ul > li > a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.lista02 > ul > li > a  {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
